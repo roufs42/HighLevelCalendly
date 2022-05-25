@@ -9,8 +9,21 @@ A simple app to create events for given time period.
 To run this app
 
 ```bash
+  npm install
   npm start
 ```
+
+## Environment Variables
+
+If you want to configure the Dates and Duration, you will need to change the following variables in lib/config.json file
+
+`startTime`
+
+`endTime`
+
+`duration`
+
+`timezone`
 
 
 ## API Reference
