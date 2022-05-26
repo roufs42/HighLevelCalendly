@@ -118,7 +118,7 @@ const getFreeSlots = async (req, res, next) => {
         //check if given timezone is valid or not
         if(!momentTz.tz.zone(timezone)){
             res.status(422).send('Given Timezone is Invalid');
-        }else if(!isValidDate(date)){
+        }else if(date && !isValidDate(date)){
             res.status(422).send('Input date is Invalid');  
         }else{
             
