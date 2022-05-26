@@ -131,8 +131,12 @@ const getFreeSlots = async (req, res, next) => {
             slotsArr = slotsArr.map((slot)=>{
                 return momentTz.tz(slot,timezone).format('MMMM Do YYYY h:mm:ss a');
             })
-        
-            res.send(slotsArr);
+            if(slotsArr.length){
+                res.send(slotsArr);
+            }else{
+                res.status(200).send('No slots available for given date');
+            }
+           
         }
 
 
