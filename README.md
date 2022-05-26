@@ -51,7 +51,7 @@ If you want to configure the Dates, Duration and Timezone, you will need to chan
 | `timezone`      | `string` | **Example**. Asia/Kolkata |
 
 
-#### Get freeslots for any given date
+#### Create an event for the given date with duration
 
 ```http
   POST /api/event
