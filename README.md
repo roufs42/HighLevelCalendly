@@ -59,7 +59,7 @@ If you want to configure the Dates, Duration and Timezone, you will need to chan
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `datetime`      | `datetime` | **Format**. ISO String(2022-10-21T18:00:00-07:00)| 
+| `datetime`      | `datetime` | **Format**. ISO String(2022-10-21T18:00:00-07:00) or Any Valid Datetime Format| 
 | `duration`      | `number` | **Example**. 30 |
 
 
