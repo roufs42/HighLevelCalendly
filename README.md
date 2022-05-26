@@ -15,7 +15,7 @@ To run this app
 
 ## Environment Variables
 
-If you want to configure the Dates and Duration, you will need to change the following variables in lib/config.json file
+If you want to configure the Dates, Duration and Timezone, you will need to change the following variables in lib/config.json file
 
 `startTime`
 
